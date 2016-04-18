@@ -4,7 +4,9 @@ import org.junit.Test;
 import static junit.framework.Assert.assertNull;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
-
+/**
+* Commit - add comment
+*/
 /**
  * @author Petri Kainulainen
  */
