@@ -24,4 +24,12 @@ public class FizzBuzz {
         value += 8; //9
         return value; //10
     }
+
+    public Integer testMeTwo() {
+        int value = 0; //1
+        value += 1; //2
+        value += 2; //3
+        value += 3; //4
+        return value; //5
+    }
 }

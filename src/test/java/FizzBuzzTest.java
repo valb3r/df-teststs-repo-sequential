@@ -44,4 +44,9 @@ public class FizzBuzzTest {
     public void addedTest1() {
         assertThat(fizzBuzz.testMeOne() - fizzBuzz.testMeOne(), is(0));
     }
+
+    @Test
+    public void addedTest3() {
+        assertThat(fizzBuzz.testMeTwo(), is(6));
+    }
 }
