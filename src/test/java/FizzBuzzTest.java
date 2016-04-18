@@ -19,7 +19,7 @@ public class FizzBuzzTest {
 
     @Test
     public void getFizzBuzzWord_Added10lines() {
-        assertThat(fizzBuzz.testMeOne(), is(36));
+        assertThat(fizzBuzz.testMeOne(), is(21));
         assertThat(fizzBuzz.getFizzBuzzWord(3), is("Fizz"));
     }
 
