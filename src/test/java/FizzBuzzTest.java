@@ -39,4 +39,14 @@ public class FizzBuzzTest {
     public void getFizzBuzzWord_NumberIsNotMultipleOfThreeOrFive_ShouldReturnNull() {
         assertNull(fizzBuzz.getFizzBuzzWord(4));
     }
+
+    @Test
+    public void addedTest1() {
+        assertThat(fizzBuzz.testMeOne() - fizzBuzz.testMeOne(), is(0));
+    }
+
+    @Test
+    public void addedTest2() {
+        assertThat(fizzBuzz.testMeOne() + fizzBuzz.testMeOne(), is(42));
+    }
 }
