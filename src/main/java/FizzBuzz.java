@@ -22,6 +22,11 @@ public class FizzBuzz {
         value += 6; //7
         value += 7; //8
         value += 8; //9
+        value += 1;
+        value += 2;
+        value += 3;
+        value += 4;
+        value += 5;
         return value; //10
     }
 
@@ -30,6 +35,11 @@ public class FizzBuzz {
         value += 1; //2
         value += 2; //3
         value += 3; //4
+        value += 1;
+        value += 2;
+        value += 3;
+        value += 4;
+        value += 5;
         return value; //5
     }
 }
