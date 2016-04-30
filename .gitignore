@@ -13,3 +13,7 @@ hs_err_pid*
 
 # mvn generated
 target
+
+# ignore IntelliJ project
+*.iml
+.idea
