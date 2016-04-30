@@ -1,14 +1,15 @@
 Repo based on https://github.com/pkainulainen/maven-examples
 Test project for UT/coverage calculation
 Commits of 6 organizations x 3 commits:
-1. org-increases-loc10.com - increases covered lines by 10 each commit
+1. org-increases-loc10.com - increases covered lines by 10 each commit, fixes build if it was failed
 2. org-decreases-loc5.com - decreases covered lines by 5 each commit
 3. org-does-nothing.com - does nothing that changes UT's statistics
 4. org-adds-uts2.com - adds 2 unit tests each commit
 5. org-removes-uts1.com - removes 1 unit test each commit
 6. org-inc-loc5-add-ut1.com increases covered lines by 5 each commit, adds 1 UT
+7. org-fail-build.com fails build every commit
 Commit pattern by organizations:
-1,2,3,4,5,6,1,2,3,4,5,6,... total 18 commits
+1,2,3,4,5,6,7,1,2,3,4,5,6,7,... total 21 commits
 Results for organizations expected per this project:
 1 - +30 covered lines, no UT change
 2 - -15 covered lines, no UT change
@@ -16,3 +17,4 @@ Results for organizations expected per this project:
 4 - no covered line change, +6 UT's
 5 - no covered line change, -3 UT's
 6 - +15 covered lines, + 3 UT's
+7 - <NO DATA> - fails build
